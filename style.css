@@ -63,16 +63,27 @@ h2 {
 	padding-bottom: 15px;
 }
 
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 28px;
+	padding-bottom: 0px;
+	color: white;
+}
+
 th {
 	font-family: Times, serif;
-	font-size:20px;
+	font-size:18px;
 	color: white;
 	font-weight: normal;
 }
 
-/*html, body {
-    width: 100%;
-}*/
+td {
+	color:white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+	text-transform: uppercase;
+}
 
 a {
 	font-style: italic;
@@ -85,8 +96,14 @@ a:hover {
 }
 
 .table {
-	margin-top: 50px
+	/*margin-top: 50px*/
 	background-color: black;
+	padding-right:40px;
 }
 
-
+.table-responsive{
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 95%;
+	align-content: center;
+}
