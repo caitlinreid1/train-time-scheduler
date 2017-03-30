@@ -14,6 +14,7 @@ font-family: 'Oswald', sans-serif;*/
         background-image: url("images/Grand_Central.jpg");
         background-size: ;
     }
+
 }
 
 .col-centered{
@@ -34,13 +35,13 @@ html, body, .container-table {
 }
 
 .col-sm-4 {
-	width: 350px;
+	width: 300px;
 }
 
 .panel-body {
 	background-color: black;
 	padding-top: 40px;
-	padding-bottom: 50px;
+	padding-bottom: 40px;
 	text-align: center;
 	border: none;
     box-shadow: none;
@@ -62,14 +63,30 @@ h2 {
 	padding-bottom: 15px;
 }
 
-html, body {
+th {
+	font-family: Times, serif;
+	font-size:20px;
+	color: white;
+	font-weight: normal;
+}
+
+/*html, body {
     width: 100%;
+}*/
+
+a {
+	font-style: italic;
+	color: white;
+	font-family: Times, serif;
 }
 
-
-.container{
-	margin-top: 40px;
+a:hover {
+	color: #1d5f3a;
 }
 
+.table {
+	margin-top: 50px
+	background-color: black;
+}
 
 
