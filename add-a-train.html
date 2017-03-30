@@ -12,7 +12,6 @@
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-
 	<!--Font faces-->
 	<link href="https://fonts.googleapis.com/css?family=Oswald|VT323" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Anton|Slabo+27px" rel="stylesheet">
@@ -20,9 +19,10 @@
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<!--jQuery-->
-	<!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
   		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  		crossorigin="anonymous"></script> -->
+  		crossorigin="anonymous"></script>
+  	<script src="script.js"></script>
   	<!--Firebase-->
   	<script src="https://www.gstatic.com/firebasejs/3.7.3/firebase.js"></script>
 </head>
@@ -33,7 +33,7 @@
 		<div class="row col-sm-8 col-lg-8 col-centered vertical-center-row">
 			<div class="panel panel-body">
           <div class="panel-heading">
-            <h3 class="panel-title"><h3>NEW TRAIN ENTRY</h3>
+            <h3 class="panel-title" id="newtrain"><h3>NEW TRAIN ENTRY</h3>
           </div>
           
 
@@ -63,14 +63,13 @@
 	            		<input class="form-control" id="frequency-input" type="text"></input>  
 	         		</div>
 	         	</div>
-	         	<a href="train-times.html">
-	         	 <button class="btn btn-default" id="add-user" type="submit">Submit</button>
-	         	</a>
+	         	 <a class="btn btn-default" id="add-train" type="submit">Submit</a>
 	        </form>
         </div>
       </div>
     </div>  
 </div>
+
 
 
 
