@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Grand Central Station</title>
+	<!--jQuery-->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  		crossorigin="anonymous"></script>
+  	<!--Firebase-->
+  	<script src="https://www.gstatic.com/firebasejs/3.7.3/firebase.js"></script>
+  	<!--bootstrap-->
+  	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!--Font faces-->
+	<link href="https://fonts.googleapis.com/css?family=Oswald|VT323" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Anton|Slabo+27px" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyD5w0UTFHlzWQKYQ4dtqWYFByFY_Ye-J7w",
+	    authDomain: "train-times-b046f.firebaseapp.com",
+	    databaseURL: "https://train-times-b046f.firebaseio.com",
+	    storageBucket: "train-times-b046f.appspot.com",
+	    messagingSenderId: "151568551068"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+	
+	<div class="container container-table">
+		<div class="row col-sm-4 col-centered vertical-center-row">
+			<div class="panel">
+				<div class="panel-body">
+				<h1>WELCOME</h1>
+				<h2>Grand Central Station</h2>
+				<a href="train-times.html">View Train Schedule</a>
+			</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
